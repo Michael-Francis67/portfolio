@@ -9,7 +9,7 @@ import Navbar from "../components/navbar/navbar.components";
 
 const Home = () => {
     return (
-        <div className="overflow-y-scroll overflow-x-hidden">
+        <div className="overflow-y-scroll overflow-x-hidden w-screen">
             <Navbar />
             <HomePage />
             <AboutSection />
