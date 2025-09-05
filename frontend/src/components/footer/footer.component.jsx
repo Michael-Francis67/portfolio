@@ -66,7 +66,7 @@ const FooterComponent = () => {
             </nav>
             <aside className="overflow-hidden">
                 <p className="text-center">Copyright © 2025 - All right reserved by Michael</p>
-                <p className="flex justify-center items-center gap-2 mt-2">
+                <p className="flex justify-center items-center max-lg:flex-col gap-2 mt-2">
                     <p>
                         <a
                             href="mailto:michealikechukwu06@gmail.com"
