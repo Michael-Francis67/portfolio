@@ -9,7 +9,7 @@ export default function Navbar({user}) {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     return (
-        <header className="bg-white z-50 w-full overflow-hidden shadow">
+        <header className="bg-white z-50 w-full overflow-hidden shadow fixed top-0">
             <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
                 <div className="flex lg:flex-1">
                     <span className="sr-only">Your Company</span>
