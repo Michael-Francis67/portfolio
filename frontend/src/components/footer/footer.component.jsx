@@ -70,12 +70,12 @@ const FooterComponent = () => {
                     <p>
                         <a
                             href="mailto:michealikechukwu06@gmail.com"
-                            className="no-underline text-blue-600 hover:text-blue-800 cursor-pointer"
+                            className="no-underline text-blue-600 hover:text-blue-800 cursor-pointer flex items-center gap-1 justify-center"
                         >
                             <Mail size={20} /> michealikechukwu06@gmail.com
                         </a>
                     </p>{" "}
-                    <p>
+                    <p className="flex items-center gap-1 justify-center">
                         - <Phone size={20} /> 09045383414
                     </p>
                 </p>
