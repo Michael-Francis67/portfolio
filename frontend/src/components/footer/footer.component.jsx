@@ -66,8 +66,18 @@ const FooterComponent = () => {
             </nav>
             <aside className="overflow-hidden">
                 <p className="text-center">Copyright © 2025 - All right reserved by Michael</p>
-                <p className="text-center">
-                    <Mail size={24} /> michealikechukwu06@gmail.com - <Phone size={24} /> 09045383414
+                <p className="flex justify-center items-center gap-2 mt-2">
+                    <p>
+                        <a
+                            href="mailto:michealikechukwu06@gmail.com"
+                            className="no-underline text-blue-600 hover:text-blue-800 cursor-pointer"
+                        >
+                            <Mail size={20} /> michealikechukwu06@gmail.com
+                        </a>
+                    </p>{" "}
+                    <p>
+                        - <Phone size={20} /> 09045383414
+                    </p>
                 </p>
             </aside>
             <div className="text-sm">
