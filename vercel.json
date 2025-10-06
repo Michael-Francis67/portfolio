@@ -19,5 +19,8 @@
             "src": "/(.*)",
             "dest": "frontend/dist/$1"
         }
-    ]
+    ],
+    "installCommand": "npm install && npm install --prefix frontend",
+    "buildCommand": "npm run build",
+    "outputDirectory": "frontend/dist"
 }
