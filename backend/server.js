@@ -21,14 +21,12 @@ const __dirname = path.resolve();
 
 app.use(helmet({contentSecurityPolicy: false}));
 
-if (process.env.NODE_ENV === "development") {
-    app.use(
-        cors({
-            origin: process.env.CLIENT_URL,
-            credentials: true,
-        })
-    );
-}
+app.use(
+    cors({
+        origin: process.env.CLIENT_URL,
+        credentials: true,
+    })
+);
 
 app.get("/health", (req, res) => {
     res.status(200).send("OK");
